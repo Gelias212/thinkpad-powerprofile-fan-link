@@ -6,7 +6,7 @@ Creates a hook between the power profile that is currently active and the fan le
 
 
 ## Usage
-- Download the release
+- Download the raw file `thinkpad-powerprofile-fan-link.sh`
 - Either cd into the folder and run `chmod +x ./thinkpad-powerprofile-fan-link.sh` or right click on the file go to properties and enable "executable as program"
 - run `sudo ./thinkpad-powerprofile-fan-link.sh install`
 
