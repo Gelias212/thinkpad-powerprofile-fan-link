@@ -1,6 +1,14 @@
 # ThinkPad Power Profile Fan Link
 Creates a hook between the power profile that is currently active and the fan level (balanced-auto/performance-full speed) compatible with Fedora, Ubuntu and Arch based distros (only tested on Fedora with tuned so far) also compatible with both Tuned and Power-Profiles-Daemon.
 
+***The default configuration is as follows:***
+
+| Active Profile  | Fan Level |
+| ------------- | ------------- |
+| Power Saver  | Off  |
+| Balanced  | Auto  |
+| Performance | Full-Speed|
+
 > [!WARNING]
 > This script is only meant for Thinkpads (with a single fan) since it requires the folder `/proc/acpi/ibm` and the file `fan` to exist inside it
 
